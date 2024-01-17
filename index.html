@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>العالمي للدعايه والاعلان</title>
+</head>
+<body dir="rtl">
+  <div class="inro p-5">
+    <h1>العالمي للدعايه والاعلان</h1>
+    <h5>ادراه المعلم : احمد عاطف</h5>
+    <label for="nameInput" class="my-1">اسم العميل  : </label>
+    <input type="text" class="form-control" id="nameInput">
+    <label for="typeInput" class="my-1">الكميه : </label>
+    <input type="text" class="form-control" id="typeInput">
+    <label for="priceInput" class="my-1"> السعر: </label>
+    <input type="number" class="form-control" id="priceInput">
+    <label for="kindInput" class="my-1">الاجمالي : </label>
+    <input type="text" class="form-control" id="kindInput">
+    <label for="countInput" class="my-1" > التنزيل: </label>
+    <input type="number" class="form-control" id="countInput">
+    <label for="colorInput" class="my-1"> الباقي: </label>
+    <input type="text" class="form-control" id="colorInput">
+    <label for="colorInput" class="my-1"> التاريخ: </label>
+    <input type="text" class="form-control" id="dateInput">
+    
+    <button id="addBtn" onclick="addProduct()" class="btn btn-outline-primary my-2">اضافه</button>
+    <button id="updateBtn" onclick="updateProduct()" class="btn  d-none btn-outline-info my-2">تعديل</button>
+    <div class="p-4 ">
+        <label for="search"> </label>
+            <input oninput="searchProducts(this.value)" type="text" placeholder=" بحث" id = "search" class=" search form-control">
+        </div>
+</div>
+    <table class="table w-75 mx-auto">
+        <thead>
+            <th>الرقم</th>
+            <th>اسم العميل</th>
+            <th>الكميه</th>
+            <th>السعر</th>
+            <th>الاجمالي</th>
+            <th>التنزيل</th>
+            <th>الباقي</th>
+            <th>التاريخ</th>
+            <th>تعديل</th>
+            <th>مسح</th>
+         
+        </thead>
+
+        <tbody id="tableBody">
+        
+        </tbody>
+    </table>
+    <script src="js/main.js"></script>
+</body>
+</html>

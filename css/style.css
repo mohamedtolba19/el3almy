@@ -1,0 +1,33 @@
+::placeholder { 
+    color: red !important ;
+   
+  }
+  #search::placeholder
+  {
+    color: gray !important;
+  }
+ 
+  #nameError
+  {
+    height: 30px !important;
+   font-weight: 12px;
+   padding: 0 10px !important;
+   text-align: left;
+    
+  }
+  #urlError
+  {
+    height: 30px !important;
+   font-weight: 12px;
+   padding: 0 10px !important;
+   text-align: left;
+    
+  }
+  .updateBtn:hover
+  {
+    color: white;
+  }
+#ubdate:hover
+{
+color: white ;
+}
