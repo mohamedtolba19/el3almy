@@ -103,10 +103,10 @@ function displayProducts(list){
     <td>${i+1}</td>
     <td>${list[i].name}</td>
     <td>${list[i].type}</td>
+    <td>${list[i].price}</td>
     <td>${list[i].kind}</td>
     <td>${list[i].count}</td>
     <td>${list[i].color}</td>
-    <td>${list[i].price}</td>
     <td>${list[i].date}</td>
     <td><button onclick= "setFormForUpdate(${i})" class="btn btn-sm btn-outline-warning my-2">تعديل</button></td>
     <td><button onclick= "deleteProduct(${i})" class="btn  btn-sm btn-outline-danger my-2">مسح</button></td>
